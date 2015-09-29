@@ -1,4 +1,4 @@
-#mainheader {
+#mainheader, #mainheader-nd {
 	background-color: #444;
 	border-color: #444;
 }
@@ -9,7 +9,7 @@ li[data-role="list-divider"] {
 	color: #888;
 	text-shadow: none;
 }
-#panel {
+#panel-first, #panel-second {
 	background-color: #333;
 }
 
@@ -37,4 +37,13 @@ li[data-role="list-divider"] {
 .logo-text {
 	padding: 5px;
 	padding:5%;
+}
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+.main-window {
+	background-color:#ddd;
+	margin-top: 10%;
 }
