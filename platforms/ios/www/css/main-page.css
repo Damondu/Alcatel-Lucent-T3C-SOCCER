@@ -41,9 +41,12 @@ li[data-role="list-divider"] {
 .displayed {
     display: block;
     margin-left: auto;
-    margin-right: auto 
+    margin-right: auto; 
 }
 .main-window {
 	background-color:#ddd;
 	margin-top: 10%;
+}
+.ui-table-columntoggle-btn {
+    display: none !important;
 }
