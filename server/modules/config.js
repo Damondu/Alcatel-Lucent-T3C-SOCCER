@@ -1,8 +1,8 @@
 var mysql_dev = {
 	port: 		'3306',
-	host: 		'localhost',
+	host: 		'127.0.0.1',
 	user: 		'root',
-	password: 	'tigris',
+	password: 	'root',
 	database: 	't3c-soccer',
 	insecureAuth: true
 };
